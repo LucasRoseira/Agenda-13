@@ -1,0 +1,106 @@
+body {
+    background-image: url("https://i.pinimg.com/736x/8f/fd/b2/8ffdb23edc1642b9d92d0571656c8e51.jpg");
+    justify-content: center;
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive !important;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.897);
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 15px;
+}
+
+#titulo-principal {
+    margin: auto;
+    font-size: 1.4em;
+    right: 0;
+    left: 1em;
+    position: relative;
+}
+
+#subtitulos {
+    font-size: 1.2em;
+}
+
+p.text-white {
+    font-size: 1.2em !important;
+}
+
+nav {
+    margin-bottom: 15px;
+}
+
+.navbar {
+    font-weight: bold;
+    margin-bottom: 1px;
+    background: rgb(228, 19, 19);
+    background: linear-gradient(90deg, rgba(228, 19, 19, 0.9528186274509804) 0%, rgba(241, 90, 90, 1) 75%, rgba(241, 90, 90, 0.8939950980392157) 100%);
+}
+
+.navbar-toggler-icon {
+    width: 1.2em !important;
+    height: 1.2em !important;
+}
+
+.navbar-toggler {
+    display: contents;
+}
+
+.img-divisora {
+    width: 18%;
+    height: 18%;
+}
+
+hr {
+    margin: 8px -10px !important;
+    color: inherit !important;
+    border: 0 !important;
+    border-top: 1px solid !important;
+    opacity: .25;
+    top: -10px !important;
+    position: relative;
+}
+
+.centralizado {
+    display: flex !important;
+    justify-content: center;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.centralizado span {
+    margin-bottom: 25px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 35px !important;
+    height: 3px !important;
+    background-color: white !important;
+}
+
+.carousel-item,
+div.carousel-item.active {
+    display: flex !important;
+    width: 100% !important;
+    justify-content: space-between;
+}
+
+.carousel-inner .bg-dark {
+    /* Created with https://www.css-gradient.com */
+    background: #6241F2 !important;
+    background: -webkit-linear-gradient(top left, #6241F2, #B9F6F7) !important;
+    background: -moz-linear-gradient(top left, #6241F2, #B9F6F7) !important;
+    background: linear-gradient(to bottom right, #6241F2, #B9F6F7) !important;
+}
+
+@media (max-width: 800px) {
+    .carousel-indicators {
+        bottom: -15px !important;
+        margin-bottom: 1rem !important;
+    }
+}
